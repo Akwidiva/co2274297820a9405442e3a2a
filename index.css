@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+.container {
+    width: 375px;
+    height: 1800px;
+    background-color: white;
+    margin: 20px auto;
+    font-family: Source Sans Pro;
+
+}
+#head {
+    background-color:white;
+    width: 375px;
+    height: 67px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid lightgrey;
+}   
+.oldagram {
+    width:127px;
+    margin-left: 10px;
+} 
+.heading {
+    display: flex;
+    flex-direction: row;
+}
+.User {
+    width:34px;
+    height:34px;
+    border: 1px solid white;
+    border-radius:50%;
+    margin: 10px 10px;
+}
+
+.p1 {
+    font-size:12px;
+    font-weight:700;
+    font:bold;
+    margin: 12px 0 0 0;
+
+}
+.p2 {
+    font-size: 12px;
+    font-weight: 400;
+    margin:0 0 12px 0;
+}
+.img {
+    width:100%;
+}
+.footing {
+    display:flex;
+    flex-direction:column;
+    margin:10px 10px;
+}
+.icons {
+    display:inline;
+}
+.icon {
+    width: 23.3px;
+    height: 22.13px;
+    top: 451px;
+    left: 10px;
+    gap: 0px;
+    border: 2.33px 0px 0px 0px;
+    opacity: 0.5; /* Initially set the opacity to 50% */
+    transition: opacity 0.3s ease-in-out; /* Smooth transition on hover */
+}
+.icon:hover, 
+.icon:active {
+    opacity: 1; /* Fully visible when hovered */
+}
+
+section {
+    border-bottom: 10px solid lightgrey;
+}
+
